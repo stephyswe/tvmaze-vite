@@ -83,3 +83,14 @@ If your not safe about it or have some question, send us a thread on [Github Dis
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Package.json
+D:\dev\react_version\viterc>npx npm-check-updates
+Checking D:\dev\react_version\viterc\package.json
+[====================] 33/33 100%
+
+ @testing-library/jest-dom  ^5.16.4  →  ^6.0.1
+
+Run npx npm-check-updates -u to upgrade package.json
+
+Warning: Don't update. It break tests.
