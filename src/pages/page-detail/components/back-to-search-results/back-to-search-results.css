@@ -1,0 +1,19 @@
+/* BackToSearchResults.css */
+
+.back-container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Adjust gap as needed */
+  height: 3rem; /* Converted 12 to 3rem for better scaling */
+  padding: 0 1.5rem; /* Adjust padding as needed */
+  border-radius: 4px; /* Adjust border-radius as needed */
+  margin-bottom: 2rem; /* Converted 8 to 2rem */
+  cursor: pointer;
+}
+
+.back-text {
+  font-family: 'Helvetica';
+  font-weight: bold;
+  color: white;
+}

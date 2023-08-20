@@ -1,0 +1,35 @@
+.cast-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cast-item img {
+  width: 3rem; /* w-12 */
+  height: 100%;
+}
+
+.cast-item-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem; /* gap-1 */
+  width: 8rem; /* w-32 */
+  flex-shrink: 0;
+  align-items: flex-start;
+  margin-top: 1rem; /* mt-3 */
+}
+
+.cast-item-name,
+.cast-item-character {
+  font-family: 'Helvetica';
+  color: white;
+}
+
+.cast-item-name {
+  font-weight: bold;
+}
+
+.cast-item-character {
+  font-size: 0.75rem; /* text-xs */
+}

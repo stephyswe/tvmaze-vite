@@ -1,0 +1,24 @@
+.search-item-image {
+  background-color: #808080;
+  width: 100%;
+  padding-bottom: 140.625%;
+  position: relative;
+}
+
+.search-item-metadata {
+  margin-top: 1rem;
+  background-color: #1c1c1c;
+}
+
+.search-item-text {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  height: 15px;
+  width: 100%;
+}
+
+.search-item-subtext {
+  color: white;
+  height: 15px;
+  width: 100%;
+}

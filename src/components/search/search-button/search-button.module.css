@@ -1,0 +1,66 @@
+/* Default Styles */
+.buttonDefault {
+  border: none;
+  display: flex;
+  padding-left: 1.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background: #00a496;
+  width: 8.0625rem;
+  height: 3.125rem;
+}
+
+.buttonDefault:hover {
+  background-color: #009580;
+  cursor: pointer;
+}
+
+.buttonDefault:disabled {
+  background: #e0e0e0;
+  color: #9e9e9e;
+}
+
+.textDefault {
+  font-weight: bold;
+  color: white;
+  margin-left: 0.25rem;
+  margin-right: 1.25rem;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Alternative Styles */
+.buttonAlternative {
+  background-color: #00a496;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 6px;
+  height: 48px; /* Equivalent to h-12 */
+  border-radius: 0.25rem;
+  transition: duration 150ms ease-in-out;
+}
+.buttonAlternative:hover {
+  background-color: #009580;
+}
+
+.textAlternative {
+  font-weight: bold;
+  font-size: 1.25rem; /* Rough equivalent to text-xl */
+  color: white;
+  margin-left: 0.25rem;
+  margin-right: 1.5rem;
+}

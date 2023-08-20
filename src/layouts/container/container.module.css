@@ -1,0 +1,13 @@
+/* Container.css */
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.innerContainer {
+  max-width: 1000px;
+  width: 100%;
+  padding: 1.25rem;
+  padding-top: 3rem;
+}

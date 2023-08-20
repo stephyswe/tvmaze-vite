@@ -1,0 +1,28 @@
+.column-block {
+  margin-bottom: 1.3333333333rem;
+}
+
+.column-block > :last-child {
+  margin-bottom: 0;
+}
+
+/* column */
+.column,
+.columns {
+  flex: 1 1 0px;
+  padding-right: 0.6666666667rem;
+  padding-left: 0.6666666667rem;
+  min-width: 0;
+}
+
+@media print, screen and (min-width: 40em) {
+  .column-block {
+    margin-bottom: 2rem;
+  }
+
+  .column,
+  .columns {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}

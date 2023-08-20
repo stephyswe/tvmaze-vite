@@ -1,0 +1,15 @@
+.landing-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.landing-search {
+  padding-right: 0.25rem;
+  background-color: #ffffff;
+  max-width: 39.375rem;
+  width: 75%;
+  margin-top: 3rem;
+}
