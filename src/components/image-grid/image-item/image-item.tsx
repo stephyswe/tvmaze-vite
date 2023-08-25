@@ -18,15 +18,13 @@ const ImageItem = ({ data, onClickShow }: ImageItemProps) => {
   const imageUrl = image?.medium || defaultImage;
 
   return (
-    <div aria-hidden="true" onClick={() => onClickShow(name)} className="column column-block">
-      <div className="cursor-pointer">
+    <div aria-hidden="true" onClick={() => onClickShow(name)} className="column column-block image-item">
+      <div className="image-item__picture">
         <figure>
-          <img alt={name} src={imageUrl} className="w-full" />
+          <img alt={name} src={imageUrl} />
         </figure>
-        <div className="mt-3">
-          <div className="font-['Helvetica'] font-bold text-white mb-2">{name}</div>
-          <RatingImage />
-        </div>
+        <div className="image-item__title">{name}</div>
+        <RatingImage />
       </div>
     </div>
   );

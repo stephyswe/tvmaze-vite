@@ -1,3 +1,20 @@
+.image-item img {
+  width: 100%;
+}
+
+.image-item__picture > :hover {
+  cursor: pointer;
+}
+
+.image-item__title {
+  margin-top: 0.75rem /* 12px */;
+  font-family: 'Helvetica';
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  margin-bottom: 0.5rem /* 8px */;
+}
+
 .column-block {
   margin-bottom: 1.3333333333rem;
 }

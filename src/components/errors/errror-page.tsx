@@ -9,7 +9,7 @@ export default function ErrorPage() {
   const error = useRouteError() as RouteError;
 
   return (
-    <div id="error-page" className="text-white items-center flex flex-col justify-center h-full">
+    <div id="error-page" className="error-page">
       <h1>Oops!</h1>
       <p>Sorry, an unexpected error has occurred.</p>
       <p>

@@ -1,0 +1,42 @@
+/* DetailContent.css */
+
+.detail-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.image-wrapper {
+  margin-top: 4px;
+  gap: 10px;
+  width: 620px;
+  align-items: flex-start;
+}
+
+.content-column {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.cast-list-mobile {
+  display: none;
+  margin-top: 10px;
+}
+
+.cast-list-desktop {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .cast-list-mobile {
+    display: block;
+  }
+  .cast-list-desktop {
+    display: none;
+  }
+}

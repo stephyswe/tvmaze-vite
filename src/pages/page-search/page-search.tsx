@@ -4,7 +4,7 @@ import useSWR from 'swr';
 
 import { fetcher, searchShowsSWR } from '../../api';
 import SearchItemSkeletons from '../../components/skeleton/skeleton';
-import ErrorState from '../../components/error-state';
+import ErrorState from '../../components/errors/error-state';
 import useQuery from '../../hooks/useQuery';
 
 import ImageGrid from '../../components/image-grid/image-grid';
