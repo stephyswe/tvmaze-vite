@@ -3,6 +3,11 @@ import { BrowserRouter } from 'react-router-dom';
 
 import AppRouter from './app';
 
+// default css
+import './assets/index.css';
+import './assets/normalize.css';
+import './assets/shimmer-effect.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root')!);
 
 // Setup MSW mock server in development
