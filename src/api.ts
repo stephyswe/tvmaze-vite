@@ -5,6 +5,10 @@ export function searchShowsSWR(query: string | null): string {
   return `${BASE_URL}search/shows?q=${query}`;
 }
 
+export function getSingleShowSWR(): string {
+  return `${BASE_URL}shows/1`;
+}
+
 export function getCastByShowIdSWR(showId: number): string {
   return `${BASE_URL}shows/${showId}/cast`;
 }

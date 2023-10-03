@@ -26,7 +26,7 @@ export default function SearchDefault() {
   };
 
   return (
-    <form className="flex" onSubmit={onSubmit}>
+    <form data-testid="search-default" className="flex" onSubmit={onSubmit}>
       <SearchInput searchValue={searchValue} handleInputChange={handleInputChange} />
       <SearchButton disabled={searchValue === ''} />
     </form>

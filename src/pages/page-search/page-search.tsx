@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import useSWR from 'swr';
 
 import { fetcher, searchShowsSWR } from '../../api';
-import SearchItemSkeletons from '../../components/skeleton/skeleton';
 import ErrorState from '../../components/errors/error-state';
+import SearchItemSkeletons from '../../components/skeleton/skeleton';
 import useQuery from '../../hooks/useQuery';
 
 import ImageGrid from '../../components/image-grid/image-grid';
@@ -14,6 +14,8 @@ export default function SearchPage() {
   const navigate = useNavigate();
   const q = useQuery();
   const { data, error } = useSWR(searchShowsSWR(q), fetcher);
+  /*   const { data: newData } = useSWR(getSingleShowSWR(q), fetcher); */
+
   const onClickShow = (name: string) => navigate(`/show/${decodeUrl(name)}`);
   const [isLoading, setIsLoading] = useState(true);
 
