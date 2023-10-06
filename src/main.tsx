@@ -36,5 +36,7 @@ if (process.env.NODE_ENV === 'development') {
     });
   // Never setup MSW mock server in production
 } else if (process.env.NODE_ENV === 'production') {
-  root.render(<AppRouter />);
+  root.render(<BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>);
 }
